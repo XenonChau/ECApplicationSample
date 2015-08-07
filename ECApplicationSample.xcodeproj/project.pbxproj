@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9039C391B6FB3B0000D6F99 /* ECTransformUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9039C381B6FB3B0000D6F99 /* ECTransformUtils.m */; };
+		C9039C421B710E69000D6F99 /* ECFunctionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9039C411B710E69000D6F99 /* ECFunctionViewController.xib */; };
 		C92ACD441B6E41AB008D0000 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C92ACD431B6E41AB008D0000 /* main.m */; };
 		C92ACD4A1B6E41AB008D0000 /* ECApplicationSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C92ACD481B6E41AB008D0000 /* ECApplicationSample.xcdatamodeld */; };
 		C92ACD4D1B6E41AB008D0000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92ACD4C1B6E41AB008D0000 /* ViewController.m */; };
@@ -40,6 +41,7 @@
 		C9039C3E1B6FB5FB000D6F99 /* ECHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECHeaders.h; sourceTree = "<group>"; };
 		C9039C3F1B6FC01D000D6F99 /* ECEnumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECEnumeration.h; sourceTree = "<group>"; };
 		C9039C401B6FC235000D6F99 /* ECMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMarco.h; sourceTree = "<group>"; };
+		C9039C411B710E69000D6F99 /* ECFunctionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ECFunctionViewController.xib; sourceTree = "<group>"; };
 		C92ACD3E1B6E41AB008D0000 /* ECApplicationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECApplicationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92ACD421B6E41AB008D0000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92ACD431B6E41AB008D0000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			children = (
 				C92ACD8B1B6E546F008D0000 /* ECFunctionViewController.h */,
 				C92ACD8C1B6E546F008D0000 /* ECFunctionViewController.m */,
+				C9039C411B710E69000D6F99 /* ECFunctionViewController.xib */,
 			);
 			path = ECFunctionViewController;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			files = (
 				C92ACD501B6E41AB008D0000 /* Main.storyboard in Resources */,
 				C92ACD551B6E41AB008D0000 /* LaunchScreen.xib in Resources */,
+				C9039C421B710E69000D6F99 /* ECFunctionViewController.xib in Resources */,
 				C92ACD521B6E41AB008D0000 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

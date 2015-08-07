@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="SSb-fj-VA2" customClass="ECFunctionViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="Zqk-8b-1Yn"/>
+                <viewControllerLayoutGuide type="bottom" id="gXC-T8-E75"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" restorationIdentifier="ECFunctionViewController" id="C3h-8W-gfa">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ju8-4x-rfd" userLabel="filterView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="OIu-OX-ESH"/>
+                        </constraints>
+                    </view>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="7lk-rk-ekc" userLabel="fundList">
+                        <rect key="frame" x="0.0" y="54" width="600" height="546"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="-1" id="xqH-bW-vpA"/>
+                            <outlet property="delegate" destination="-1" id="oBt-VZ-aZm"/>
+                        </connections>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="Ju8-4x-rfd" firstAttribute="leading" secondItem="C3h-8W-gfa" secondAttribute="leadingMargin" constant="-16" id="4Ja-XW-lYH"/>
+                    <constraint firstItem="gXC-T8-E75" firstAttribute="bottom" secondItem="7lk-rk-ekc" secondAttribute="bottom" id="8qQ-Iz-0nK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7lk-rk-ekc" secondAttribute="trailing" constant="-16" id="JM2-dU-3qO"/>
+                    <constraint firstItem="7lk-rk-ekc" firstAttribute="leading" secondItem="C3h-8W-gfa" secondAttribute="leadingMargin" constant="-16" id="QVe-p3-bny"/>
+                    <constraint firstItem="Ju8-4x-rfd" firstAttribute="width" secondItem="C3h-8W-gfa" secondAttribute="width" id="Zxn-Lv-oQD"/>
+                    <constraint firstItem="Ju8-4x-rfd" firstAttribute="top" secondItem="Zqk-8b-1Yn" secondAttribute="bottom" constant="-20" id="bhI-zm-iSX"/>
+                    <constraint firstItem="7lk-rk-ekc" firstAttribute="top" secondItem="Ju8-4x-rfd" secondAttribute="bottom" constant="14" id="mra-6M-mKb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Ju8-4x-rfd" secondAttribute="trailing" constant="-16" id="vaA-6U-ItV"/>
+                </constraints>
+            </view>
+            <point key="canvasLocation" x="341" y="385"/>
+        </viewController>
+    </objects>
+</document>

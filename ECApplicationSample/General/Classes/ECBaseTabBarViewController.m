@@ -24,7 +24,8 @@
     _rootViewController = [[ECRootViewController alloc] init];
     UINavigationController * rootNavi = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
     
-    _functionViewController = [[ECFunctionViewController alloc] init];
+//    _functionViewController = [[ECFunctionViewController alloc] init];
+    _functionViewController = [[ECFunctionViewController alloc] initWithNibName:@"ECFunctionViewController" bundle:nil];
     UINavigationController * funcNavi = [[UINavigationController alloc] initWithRootViewController:_functionViewController];
     
     
