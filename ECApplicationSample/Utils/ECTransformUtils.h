@@ -14,4 +14,6 @@
 
 + (BOOL)isNullString:(NSString *)string;
 
++ (BOOL)isValidBankCardNumber:(NSString *)cardNumber;
+
 @end
