@@ -16,4 +16,5 @@
 
 + (BOOL)isValidBankCardNumber:(NSString *)cardNumber;
 
+
 @end

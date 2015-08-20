@@ -190,5 +190,4 @@
     return [lastCharacter integerValue] == result;
 }
 
-
 @end

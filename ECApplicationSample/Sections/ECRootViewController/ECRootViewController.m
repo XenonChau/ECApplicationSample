@@ -33,6 +33,7 @@
     [switchButton addTarget:self action:@selector(switchButtonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:switchButton];
     
+    
 }
 
 - (void)switchButtonAction:(UIButton *)button {
